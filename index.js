@@ -1,6 +1,6 @@
 let express = require('express')
 let app = express()
-
+const http = require('http')
 
 app.set('view engine', 'ejs')
 
@@ -17,3 +17,6 @@ app.get('/cofe', function(req, res){
 
 app.listen(3000)
  
+setInterval(() => {
+  http.get(http://${process.env.PROJECT_DOMAIN}.glitch.me/)
+  }, 280000)
