@@ -1,0 +1,66 @@
+body{
+    background: url(/public/img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.all{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #d3d3d3;
+    border-radius: 5px;
+    color: #706868;
+}
+
+a{
+    color: #706868;
+    text-decoration: none;
+}
+
+.footer{
+    margin-top: 100px;
+    color: #706868;
+}
+.cofe-img{
+    float: right;
+    width: 300px;
+    height: 200px;
+    border: 2px black solid;
+    margin: 10px;
+}
+.espresso {
+    margin: px 0 80px 0;
+}
+.cappucion {
+    color: #706868;
+    margin: 40px 0 40px 0;
+}
+.latte{
+    margin: 40px 0 40px 0;
+}
+.menu {
+    margin-top: 80px;
+}
+
+.coffe-table {
+    width: 100%;
+    border: 1px white solid;
+    border-radius: 5px;
+    background: white;
+}
+.coffe-table th {padding: 8px;}
+.coffe-table tr {
+    font-weight: normal;
+    background: #d3d3d3;
+    color: #706868;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  .have td{
+    background-color: #33FB54;
+}
+.coffe-table  td {
+    color: #706868;
+    padding: 8px;
+  }

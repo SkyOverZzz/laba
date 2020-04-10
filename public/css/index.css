@@ -1,0 +1,49 @@
+body{
+    background: url(/public/img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.all{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #d3d3d3;
+    border-radius: 5px;
+}
+.profile{
+    margin: 10px 20px;
+}
+.ava{
+    width: 180px;
+    height: 180px;
+    border: 3px white solid;
+    float: left;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+a{
+    color: #706868;
+    text-decoration: none;
+}
+.coffe{
+    margin-top: 100px;
+}
+.coffe-img{
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-right: 40px;
+    border: black 2px solid;
+}
+.description{
+    margin-top:20px;
+   
+}
+.description li {
+    color: #706868;
+}
+.footer{
+    margin-top: 100px;
+    color: #706868;
+}
