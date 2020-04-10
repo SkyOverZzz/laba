@@ -1,3 +1,4 @@
+const http = require('http')
 let express = require('express')
 let app = express()
 
@@ -10,10 +11,13 @@ app.get('/', function(req, res){
   res.render('index')
 })
 
-app.get('/cofe', function(req, res){
-  res.render('cofe')
+app.get('/coffe', function(req, res){
+  res.render('coffe')
 })
 
 
-app.listen(3000)
+app.listen(5000)
  
+setInterval(function () {
+  http.get('http://'+ process.env.PROJECT_DOMAIN+ '.glitch.me/')
+}, 280000)
