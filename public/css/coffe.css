@@ -57,8 +57,11 @@ a{
     padding: 8px;
     border-radius: 10px;
   }
-  .have td{
+.have {
     background-color: #33FB54;
+}
+.not-available{
+  background: #FC6666;
 }
 .coffe-table  td {
     color: #706868;
