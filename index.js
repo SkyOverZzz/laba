@@ -16,7 +16,9 @@ app.get('/cofe', function(req, res){
 
 
 app.listen(3000)
- 
+
+//keep alive
+
 setInterval(() => {
-  http.get(http://${process.env.PROJECT_DOMAIN}.glitch.me/)
-  }, 280000)
+http.get(http://${process.env.PROJECT_DOMAIN}.glitch.me/)
+}, 280000)
